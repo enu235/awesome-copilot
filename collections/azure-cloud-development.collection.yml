@@ -19,6 +19,18 @@ items:
   - path: chatmodes/terraform-azure-implement.chatmode.md
     kind: chat-mode
 
+  # Azure AI Foundry Workflow Chain
+  - path: chatmodes/azure-ai-foundry-plan.chatmode.md
+    kind: chat-mode
+  - path: chatmodes/azure-ai-foundry-validate.chatmode.md
+    kind: chat-mode
+  - path: chatmodes/azure-ai-foundry-review.chatmode.md
+    kind: chat-mode
+  - path: chatmodes/azure-ai-foundry-deploy.chatmode.md
+    kind: chat-mode
+  - path: chatmodes/azure-ai-foundry-confirm.chatmode.md
+    kind: chat-mode
+
   # Infrastructure as Code Instructions
   - path: instructions/bicep-code-best-practices.instructions.md
     kind: instruction
@@ -27,6 +39,10 @@ items:
   - path: instructions/terraform-azure.instructions.md
     kind: instruction
   - path: instructions/azure-verified-modules-terraform.instructions.md
+    kind: instruction
+  - path: instructions/azure-ai-foundry.instructions.md
+    kind: instruction
+  - path: instructions/azure-ai-private-endpoints.instructions.md
     kind: instruction
 
   # Azure Development Instructions
@@ -47,6 +63,12 @@ items:
   - path: prompts/azure-resource-health-diagnose.prompt.md
     kind: prompt
   - path: prompts/az-cost-optimize.prompt.md
+    kind: prompt
+  - path: prompts/azure-ai-foundry-quickstart.prompt.md
+    kind: prompt
+  - path: prompts/azure-ai-foundry-add-project.prompt.md
+    kind: prompt
+  - path: prompts/azure-ai-foundry-debug-connectivity.prompt.md
     kind: prompt
 
 display:

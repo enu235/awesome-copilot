@@ -1,0 +1,34 @@
+id: azure-ai-foundry
+name: Azure AI Foundry Infrastructure
+description: Complete Azure AI Foundry Hub and Project deployment workflow with private endpoints, security validation, and multi-project isolation. Includes chatmode chain for Plan → Validate → Review → Deploy → Confirm phases, plus quick-task prompts for common operations.
+tags: [azure, ai, bicep, infrastructure, private-endpoints, cognitive-services, security, networking, rbac]
+items:
+  # Workflow Chain: Azure AI Foundry Deployment (Use in sequence)
+  - path: chatmodes/azure-ai-foundry-plan.chatmode.md
+    kind: chat-mode
+  - path: chatmodes/azure-ai-foundry-validate.chatmode.md
+    kind: chat-mode
+  - path: chatmodes/azure-ai-foundry-review.chatmode.md
+    kind: chat-mode
+  - path: chatmodes/azure-ai-foundry-deploy.chatmode.md
+    kind: chat-mode
+  - path: chatmodes/azure-ai-foundry-confirm.chatmode.md
+    kind: chat-mode
+
+  # Foundation Instructions (Auto-applied when active)
+  - path: instructions/azure-ai-foundry.instructions.md
+    kind: instruction
+  - path: instructions/azure-ai-private-endpoints.instructions.md
+    kind: instruction
+
+  # Quick-Task Prompts
+  - path: prompts/azure-ai-foundry-quickstart.prompt.md
+    kind: prompt
+  - path: prompts/azure-ai-foundry-add-project.prompt.md
+    kind: prompt
+  - path: prompts/azure-ai-foundry-debug-connectivity.prompt.md
+    kind: prompt
+
+display:
+  ordering: alpha
+  show_badge: true
